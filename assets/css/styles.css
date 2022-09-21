@@ -411,6 +411,9 @@ img {
 @media screen and (max-width: 320px) {
   .home {
     row-gap: 2rem;
+   justify-content: center;
+    text-align: center;
+   
   }
   .home__img {
     width: 200px;
