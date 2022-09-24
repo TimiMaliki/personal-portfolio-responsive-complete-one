@@ -339,7 +339,7 @@ img {
   border-radius: .5rem;
 }
 .gap{
-  transform: translateX(150px);
+  transform: translateX(100px);
 }
 
 /* ===== WORK =====*/
@@ -421,6 +421,9 @@ img {
   .home__img {
     width: 200px;
   }
+  .gap{
+    transform: translateX(100px);
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -451,6 +454,9 @@ img {
     justify-content: center;
     column-gap: 1rem;
   }
+  .gap{
+  transform: translateX(100px);
+}
   .work__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
