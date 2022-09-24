@@ -338,6 +338,9 @@ img {
 .skills__img {
   border-radius: .5rem;
 }
+.gap{
+  transform: translateX(150px);
+}
 
 /* ===== WORK =====*/
 .work__container {
